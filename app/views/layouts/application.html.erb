@@ -1,3 +1,57 @@
+<!doctype html>
+    <html>
+        <head>
+            <title>FirstApp</title>
+            <%= stylesheet_link_tag 'first_page', media: 'all', 'data-turbolinks-track' => true %>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+            <link rel="icon" href="https://i.pinimg.com/originals/49/5f/df/495fdfbd7e777956a0b42266a16818ac.png">
+            <style>
+                body{
+                    background-color: rgb(255, 112, 112);
+                }
+            </style>
+        </head>
+            <body>
+                <header>
+                    <div class="header">Header</div>
+                </header>
+                        <nav>
+                            <a href="/" class="button">Menu1</a>
+                            <a href="/" class="button">Menu2</a>
+                            <a href="/" class="button">Menu3</a>
+                        </nav>
+                <main>
+                    <article>Content
+                        <div class="block-1">
+                            <form class="form">
+                                <br /><br />
+                                    <label for="SurN">Surname:</label>
+                                    <input type="text" id="SurN">
+                                <br /><br />
+                                    <label for="Name">Name:</label>
+                                    <input type="text" id="Name">
+                                <br /><br />
+                                    <label for="Password">Password:</label>
+                                    <input type="text" id="Password">
+                                <br /><br />
+                                    <label for="Gender">Gender:</label>
+                                    <select id="Gender">
+                                        <option>Male</option>
+                                        <option>Female</option>
+                                    </select>
+                                <br /><br />
+                                    <input class="avtorise" type="submit" value="Log in"/>
+                            </form>
+                        </div> 
+                    </article>
+                    <aside>Additional info</aside>
+                </main>
+                <footer>Footer</footer>
+            </body>
+    </html>
+
+
+<!--
 <!DOCTYPE html>
 <html>
   <head>
@@ -14,3 +68,4 @@
     <%= yield %>
   </body>
 </html>
+-->

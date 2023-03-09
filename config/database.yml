@@ -33,12 +33,11 @@ test:
   <<: *default
   database: firstApp_test
 
-
-#production:
-  #<<: *default
-  #database: firstApp_production
-  #username: firstApp
-  #password: <%= ENV["FIRSTAPP_DATABASE_PASSWORD"] %>
+production:
+  <<: *default
+  database: firstApp_production
+  username: firstApp
+  password: <%= ENV["FIRSTAPP_DATABASE_PASSWORD"] %>
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
