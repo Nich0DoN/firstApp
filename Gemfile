@@ -78,3 +78,5 @@ gem "thin", "~> 1.8"
 gem "falcon", "~> 0.42.3"
 
 gem "webrick", "~> 1.8"
+
+gem 'bcrypt', '~> 3.1.7'
