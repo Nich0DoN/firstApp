@@ -18,9 +18,9 @@ test:
   database: firstApp_test
 
 
-#production:
-  #<<: *default
-  #database: firstApp_production
+production:
+  <<: *default
+  database: firstApp_production
   #username: firstApp
   #password: <%= ENV["FIRSTAPP_DATABASE_PASSWORD"] %>
 
