@@ -1,5 +1,6 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
 /* общие */
 body {
     padding-top: 60px;
@@ -126,6 +127,29 @@ input, textarea, select, .uneditable-input {
 
 input {
     height: auto !important;
+}
+
+.checkbox {
+    margin-top: -10px;
+    margin-bottom: 10px;
+    span {
+    margin-left: 20px;
+    font-weight: normal;
+    }
+}
+#session_remember_me {
+    width: auto;
+    margin-left: 0;
+}
+
+.dropdown-menu
+{
+    display: inline-table;
+    padding: 3px 20px;
+    clear: both;
+    line-height: 1.42857143;
+    color: #333;
+    white-space: nowrap;
 }
 
 /* подвал */

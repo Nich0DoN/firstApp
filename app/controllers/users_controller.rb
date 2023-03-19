@@ -8,6 +8,7 @@ class UsersController < ApplicationController
   def create
     @user = User.new(user_params)
     if @user.save
+      log_in @user
       # Обработать успешное сохранение.
       flash[:success] = "Welcome to the Website!"
       redirect_to @user
